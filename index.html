@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso JS</title>
+    <style>
+      html, body {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: #242222;
+      }
+      .box {
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+      }
+      .title {
+        color: #fff;
+        margin: 0 0 10px;
+      }
+      button {
+        background-color: #942525;
+        padding: 10px;
+        margin: 0;
+        outline: 0;
+        border: 0;
+        max-width: 200px;
+        margin-top: 10px;
+        cursor: pointer;
+        color: white;
+      }
+      input {
+        padding: 10px 10px;
+        outline: 0;
+        color: #942525;
+        max-width: 400px;
+      }
+      li {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="box box-square">
+        <h2 class="Title">Exercicio Adicionar Quadrado</h2>
+        <button class="new-square">Adicionar Novo Quadrado</button>
+      </div>
+      <div class="box box-names">
+        <h2 class="Title">Exercicio Adicionar Nomes</h2>
+        <input type="text" name="nome">
+        <button onClick="Adicionar()">Adicionar</button>
+      </div>
+      <div class="box">
+        <h2 class="Title">Exercicio Adicionar Usúarios - Api GitHub</h2>
+        <input type="text" name="user">
+        <button onClick="AddUser()">Adicionar Usuário</button>
+        <div class="users"></div>
+      </div>
+    </div>
+    <script  type="text/javascript" src="./starter.js"></script>
+    <script  type="text/javascript" src="./launch-base.js"></script>
+    <script></script>
+  </body>
+</html>
